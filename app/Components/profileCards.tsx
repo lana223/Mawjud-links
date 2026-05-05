@@ -5,7 +5,7 @@ import DownloadAppsButton from "./DownloadAppsButton";
 
 export default function ProfileCard() {
   return (
-    <div className="flex flex-col gap-10  ">
+    <div className="flex flex-col gap-10 ">
       {/* Header */}
      <div className="flex items-center justify-center my-6">
   <img
@@ -13,10 +13,10 @@ export default function ProfileCard() {
     alt="main header"
     className="
       w-[60%]
-      max-w-[180px]
-      sm:max-w-[240px]
-      md:max-w-[300px]
-      lg:max-w-[360px]
+      max-w-[140px]
+      sm:max-w-[200px]
+      md:max-w-[250px]
+      lg:max-w-[300px]
       h-auto
       object-contain
     "
