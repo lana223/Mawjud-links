@@ -3,24 +3,20 @@
 export const links = [
   {
      icon: "/instagram.svg",
-    url: "/",
+    url: "https://www.instagram.com/mevcut.platform_8?igsh=ajFrcDBpcnVjMHBy",
     title: " انستغرام",
   },
  
  
   {
     icon: "/facebook.svg",
-    url: "https://facebook.com/lana",
+    url: "https://www.facebook.com/share/1DxiSwVzR1/",
     title: " فيسبوك",
   },
-   {
-    icon: "/telegram.svg",
-    url: "https://t.me/lana",
-    title: " تيليغرام",
-  },
+ 
   {
     icon: "/whatsapp.svg",
-    url: "https://t.me/lana",
+    url: "https://mevcut.co/+963964696013",
     title: " واتساب ",
   },
 
