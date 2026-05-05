@@ -10,7 +10,7 @@ export default function Home() {
     const media = window.matchMedia("(max-width: 640px)");
 
     const updateBg = () => {
-      setBg(media.matches ? "/iPhoneM.svg" : "/imaget.svg");
+      setBg(media.matches ? "/iPhoneM3.svg" : "/imaget.svg");
     };
 
     updateBg();

@@ -12,7 +12,7 @@ export default function ProfileCard() {
     src="/mainheader.svg"
     alt="main header"
     className="
-      w-[70%]
+      w-[60%]
       max-w-[180px]
       sm:max-w-[240px]
       md:max-w-[300px]

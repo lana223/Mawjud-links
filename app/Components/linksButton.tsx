@@ -26,7 +26,7 @@ export default function LinkButton({ icon, url, title }: Props) {
         <img
           src={icon}
           alt="social icon"
-          className="w-[70%] h-[70%] object-contain sm:shadow-sm md:shadow-xl
+          className="w-[70%] h-auto object-contain sm:shadow-sm md:shadow-xl
         shadow-xl rounded-full 
 "
         /> 

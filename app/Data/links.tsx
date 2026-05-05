@@ -18,6 +18,11 @@ export const links = [
     url: "https://t.me/lana",
     title: " تيليغرام",
   },
+  {
+    icon: "/whatsapp.svg",
+    url: "https://t.me/lana",
+    title: " واتساب ",
+  },
 
   {
     icon: "/web.svg",

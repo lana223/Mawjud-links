@@ -28,7 +28,8 @@ export default function DownloadAppsButton({
         <img
           src={icon1}
           alt="app icon"
-             className="w-38 h-38 object-contain scale-110"
+             className="w-38 h-38 object-contain scale-80 sm:shadow-sm md:shadow-xl rounded-full
+        shadow-xl"
         />
 
         
