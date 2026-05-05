@@ -1,58 +1,54 @@
-import LinkButton from "./linksButton";
+import LinkButton from "./LinksButton";
 import { links } from "../Data/links";
-
-
-{/*export default function ProfileCard() {
-  return (
-    <div className="flex flex-col gap-4 items-center justify-center rounded-3xl  w-full text-center">
-            
-      <div className="my-30">
-        <img alt="" src="/mainheader.svg" className=" w-110 mx-auto ">
-        </img>
-      </div>
-           
-
-      <div className="flex flex-row gap-6 mx-auto justify-center">
-        {links.map((link, index) => (
-          <LinkButton
-            key={index}
-            icon={link.icon}
-            url={link.url}
-            title={link.title}
-          />
-        ))}
-      </div>
-    </div>
-  );
-}
-*/}
-
+import { buttons } from "../Data/Buttons";
+import DownloadAppsButton from "./DownloadAppsButton";
 
 export default function ProfileCard() {
   return (
-    <div className="flex flex-col gap-10 items-center justify-center w-full max-w-4xl mx-auto text-center">
-
+    <div className="flex flex-col gap-10  ">
       {/* Header */}
-      <div className="my-6 sm:my-6 md:my-12">
-        <img
-          alt=""
-          src="/mainheader.svg"
-          className="w-[80%] sm:w-[80%] md:w-[100%] sm:h-[60%] md:h-[100%] max-w-3xl mx-auto"
-        />
-      </div>
+     <div className="flex items-center justify-center my-6">
+  <img
+    src="/mainheader.svg"
+    alt="main header"
+    className="
+      w-[70%]
+      max-w-[180px]
+      sm:max-w-[240px]
+      md:max-w-[300px]
+      lg:max-w-[360px]
+      h-auto
+      object-contain
+    "
+  />
+</div>
 
       {/* Icons */}
-      <div className="flex flex-wrap justify-center gap-6">
-        {links.map((link, index) => (
-          <LinkButton
-            key={index}
-            icon={link.icon}
-            url={link.url}
-            title={link.title}
-          />
-        ))}
+      <div className="mt-4 w-[50%] ">
+        <div className="flex flex-wrap justify-center gap-4  ">
+          {links.map((link, index) => (
+            <LinkButton
+              key={index}
+              icon={link.icon}
+              url={link.url}
+              title={link.title}
+            />
+          ))}
+        </div>
       </div>
-
+      {/* Download buttons */}
+      <div className="my-8">
+        <div className="flex flex-wrap justify-center gap-4 my-4">
+          {buttons.map((button, index) => (
+            <DownloadAppsButton
+              key={index}
+              icon1={button.icon1}
+              ButtonUrl={button.ButtonUrl}
+              Buttontitle={button.Buttontitle}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

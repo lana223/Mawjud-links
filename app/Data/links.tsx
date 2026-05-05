@@ -4,28 +4,25 @@ export const links = [
   {
      icon: "/instagram.svg",
     url: "/",
-    title: "On Instagram",
+    title: " انستغرام",
   },
-  {
-    icon: "/telegram.svg",
-    url: "https://t.me/lana",
-    title: "On Telegram",
-  },
-
+ 
  
   {
     icon: "/facebook.svg",
     url: "https://facebook.com/lana",
-    title: "On Facebook",
+    title: " فيسبوك",
   },
+   {
+    icon: "/telegram.svg",
+    url: "https://t.me/lana",
+    title: " تيليغرام",
+  },
+
   {
     icon: "/web.svg",
     url: "https://lana-portfolio.vercel.app",
-    title: "On The Web",
+    title: " الويب",
   },
-   {
-    icon: "/download.svg",
-    url: "mailto:lana@email.com",
-    title: "Download App",
-  },
+ 
 ];
