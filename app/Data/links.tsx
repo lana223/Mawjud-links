@@ -22,7 +22,7 @@ export const links = [
 
   {
     icon: "/web.svg",
-    url: "https://lana-portfolio.vercel.app",
+    url: "https://mevcut.co/",
     title: " الويب",
   },
  

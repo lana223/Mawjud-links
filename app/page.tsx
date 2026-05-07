@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex items-center justify-center"
+      className="min-h-screen bg-cover bg-center  "
       style={{ backgroundImage: `url('${bg}')` }}
     >
       <ProfileCards />

@@ -1,5 +1,4 @@
 
-
 type Props = {
   icon1: string;
   ButtonUrl: string;
@@ -15,23 +14,22 @@ export default function DownloadAppsButton({
       href={ButtonUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-row items-center  "
+      className="  "
     >
-      <div
-        className="
-       w-40 
-        flex items-center justify-center
-        gap-4
-       
-      "
-      >
-        <img
-          src={icon1}
-          alt="app icon"
-             className="w-38 h-38 object-contain scale-80 sm:shadow-sm md:shadow-xl rounded-full
-        shadow-xl"
-        />
-
+     <div
+  className="
+    
+    flex items-center justify-center
+  "
+>
+       <img
+    src={icon1}
+    alt="app icon"
+    className="
+     
+      object-contain
+    "
+  />
         
       </div>
     </a>
