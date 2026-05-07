@@ -14,11 +14,11 @@ export default function ProfileCard() {
           alt="main header"
        className="
   w-[70%]
-  max-w-[160px]
-  sm:max-w-[200px]
-  md:max-w-[240px]
-  lg:max-w-[280px]
-  xl:max-w-[320px]
+  max-w-[240px]
+  sm:max-w-[280px]
+  md:max-w-[320px]
+  lg:max-w-[360px]
+  xl:max-w-[400px]
   h-auto
   object-contain
 "
