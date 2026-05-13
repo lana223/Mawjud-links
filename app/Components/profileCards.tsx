@@ -10,7 +10,7 @@ export default function ProfileCard() {
     
          <div className="flex  justify-center ">
         <img
-          src="/mainheader.svg"
+          src="/Images/mainheader.svg"
           alt="main header"
        className="
   w-[70%]

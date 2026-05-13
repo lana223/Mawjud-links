@@ -16,7 +16,7 @@ export const links = [
  
   {
     icon: "/Images/whatsapp.svg",
-    url: "https://mevcut.co/+963964696013",
+    url: "https://wa.me/963964696013",
     title: " واتساب ",
   },
 
