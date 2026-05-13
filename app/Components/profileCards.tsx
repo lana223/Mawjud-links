@@ -1,6 +1,6 @@
 import LinkButton from "./LinksButton";
-import { links } from "../Data/links";
-import { buttons } from "../Data/Buttons";
+import { links } from "../data/links";
+import { buttons } from "../data/buttons";
 import DownloadAppsButton from "./DownloadAppsButton";
 
 export default function ProfileCard() {
