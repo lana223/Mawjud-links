@@ -2,26 +2,26 @@
 
 export const links = [
   {
-     icon: "/instagram.svg",
+     icon: "/Images/instagram.svg",
     url: "https://www.instagram.com/mevcut.platform_8?igsh=ajFrcDBpcnVjMHBy",
     title: " انستغرام",
   },
  
  
   {
-    icon: "/facebook.svg",
+    icon: "/Images/facebook.svg",
     url: "https://www.facebook.com/share/1DxiSwVzR1/",
     title: " فيسبوك",
   },
  
   {
-    icon: "/whatsapp.svg",
+    icon: "/Images/whatsapp.svg",
     url: "https://mevcut.co/+963964696013",
     title: " واتساب ",
   },
 
   {
-    icon: "/web.svg",
+    icon: "/Images/web.svg",
     url: "https://mevcut.co/",
     title: " الويب",
   },
