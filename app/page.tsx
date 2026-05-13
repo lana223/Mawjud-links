@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 import ProfileCards from "@/app/Components/ProfileCards";
 
 export default function Home() {
-  const [bg, setBg] = useState("/BG2.jpeg");
+  const [bg, setBg] = useState("/Images/BG2.jpeg");
 
   useEffect(() => {
     const media = window.matchMedia("(max-width: 640px)");
 
     const updateBg = () => {
-      setBg(media.matches ? "/Images/iphonee.svg" : "/Images/BG2.jpeg");
+      setBg(media.matches ? "/Images/Iphonee.svg" : "/Images/BG2.jpeg");
     };
 
     updateBg();
