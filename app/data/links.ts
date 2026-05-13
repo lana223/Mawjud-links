@@ -3,14 +3,14 @@
 export const links = [
   {
      icon: "/Images/instagram.svg",
-    url: "https://www.instagram.com/mevcut.platform_8?igsh=ajFrcDBpcnVjMHBy",
+    url: "https://www.instagram.com/mawjud.app?igsh=cXRnMHJ4Z3FhYXRs",
     title: " انستغرام",
   },
  
  
   {
     icon: "/Images/facebook.svg",
-    url: "https://www.facebook.com/share/1DxiSwVzR1/",
+    url: "https://www.facebook.com/share/1AStSwieA1/",
     title: " فيسبوك",
   },
  
