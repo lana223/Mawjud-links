@@ -13,12 +13,12 @@ export default function ProfileCard() {
           src="/Images/mainheader.svg"
           alt="main header"
        className="
-  w-[70%]
-  max-w-[240px]
-  sm:max-w-[280px]
-  md:max-w-[320px]
-  lg:max-w-[360px]
-  xl:max-w-[400px]
+  w-[80%]
+  max-w-[280px]
+  sm:max-w-[320px]
+  md:max-w-[360px]
+  lg:max-w-[400px]
+  xl:max-w-[440px]
   h-auto
   object-contain
 "
@@ -26,8 +26,8 @@ export default function ProfileCard() {
       </div>
 
       {/* Icons */}
-      <div className="mt-6  ">
-        <div className="flex flex-wrap  justify-center gap-4  ">
+      <div className="mt-9  ">
+        <div className="flex flex-wrap  justify-center gap-4 mx-8 ">
           {links.map((link, index) => (
             <LinkButton
               key={index}
@@ -41,18 +41,32 @@ export default function ProfileCard() {
    
      
       {/* Download buttons */}
-      <div className="">
-        <div className="flex flex-wrap justify-center gap-4">
-          {buttons.map((button, index) => (
-            <DownloadAppsButton
-              key={index}
-              icon1={button.icon1}
-              ButtonUrl={button.ButtonUrl}
-              Buttontitle={button.Buttontitle}
-            />
-          ))}
-        </div>
+<div className="w-full px-2 sm:px-4">
+  <div
+    className="
+      flex flex-wrap justify-center items-center
+      gap-1 sm:gap-2 md:gap-3
+    "
+  >
+    {buttons.map((button, index) => (
+      <div
+        key={index}
+        className="
+          scale-75
+          sm:scale-90
+          md:scale-100
+          origin-center
+        "
+      >
+        <DownloadAppsButton
+          icon1={button.icon1}
+          ButtonUrl={button.ButtonUrl}
+          Buttontitle={button.Buttontitle}
+        />
       </div>
+    ))}
+  </div>
+</div>
     </div>
   );
 }

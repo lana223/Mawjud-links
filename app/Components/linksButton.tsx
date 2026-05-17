@@ -31,7 +31,7 @@ export default function LinkButton({ icon, url, title }: Props) {
 "
         /> 
         
-        <h3 className="text-xl sm:text-base md:text-lg font-semibold text-white">
+        <h3 className="text-2xl sm:text-base md:text-lg font-semibold text-white">
         {title}
         </h3>
 
